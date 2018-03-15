@@ -21,6 +21,10 @@ var argv  = require('yargs').argv
 var path = require('path');
 var package = require('./package.json');
 
+
+
+
+
 var srcDir = './src/';
 var outDir = './dist/';
 var testDir = './test/';
@@ -92,6 +96,11 @@ function buildTask() {
     .pipe(streamify(replace('{{ version }}', package.version)))
     .pipe(streamify(concat('Chart.bundle.min.js')))
     .pipe(gulp.dest(outDir));
+  
+  
+  
+  
+  
 
   var nonBundled = browserify('./src/chart.js', { standalone: 'Chart' })
     .ignore('moment')
@@ -110,6 +119,10 @@ function buildTask() {
   return merge(bundled, nonBundled);
 
 }
+
+
+
+
 
 function packageTask() {
   return merge(
@@ -157,6 +170,10 @@ function lintTask() {
       'xit'
     ]
   };
+  
+  
+  
+  
 
   return gulp.src(files)
     .pipe(eslint(options))
