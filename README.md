@@ -14,8 +14,10 @@ To install via npm:
 
 ```bash
 npm install chart.js --save
-```
+``` 
 
+
+this is it
 To install via bower:
 ```bash
 bower install chart.js --save
