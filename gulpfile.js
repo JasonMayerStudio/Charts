@@ -3,7 +3,6 @@ var concat = require('gulp-concat');
 var connect = require('gulp-connect');
 var eslint = require('gulp-eslint');
 var file = require('gulp-file');
-var htmlv = require('gulp-html-validator');
 var insert = require('gulp-insert');
 var replace = require('gulp-replace');
 var size = require('gulp-size');
