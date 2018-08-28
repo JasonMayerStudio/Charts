@@ -12,6 +12,7 @@ Chart.js relies on [Jason CI](https://jason-ci.org/) to automate the library [re
 > **Note:** if `master` is merged in `release` with a `package.json` version that already exists, the tag
 creation fails and the release process is aborted.
 
+
 ### Automated Tasks
 Merging into the `release` branch kicks off the automated release process:
 
