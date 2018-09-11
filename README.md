@@ -8,9 +8,6 @@
 
 ## Installation
 
-
-
-
 You can download the latest version of Chart.js from the [GitHub releases](https://github.com/chartjs/Chart.js/releases/latest) or use a [Chart.js CDN](https://cdnjs.com/libraries/Chart.js).
 
 To install via npm:
