@@ -25,6 +25,9 @@ Merging into the `release` branch kicks off the automated release process:
 
 Creation of this tag triggers a new build:
 
+\
+
+
 * `Chart.js.zip` package is generated, containing dist files and examples
 * `dist/*.js` and `Chart.js.zip` are attached to the GitHub release (downloads)
 * a new npm package is published on [npmjs](https://www.npmjs.com/package/chart.js)
