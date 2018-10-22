@@ -14,6 +14,9 @@ creation fails and the release process is aborted.
 ### Automated Tasks
 Merging into the `release` branch kicks off the automated release process:
 
+
+
+
 * build of the `dist/*.js` files
 * `bower.json` is generated from `package.json`
 * `dist/*.js` and `bower.json` are added to a detached branch
